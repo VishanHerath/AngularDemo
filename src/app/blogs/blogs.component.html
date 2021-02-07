@@ -1,0 +1,11 @@
+<div class="container write-post d-flex justify-content-end">
+	<button type="button" class="btn btn-outline-dark">
+		Write a Blog
+	</button>
+</div>
+
+
+<div class="blog-post">
+	<app-blog *ngFor="let blog of blogs" [blog] = "blog"></app-blog>
+</div>
+
